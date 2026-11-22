@@ -8,7 +8,7 @@ if (
     !isset($_SESSION['vaiTro']) ||
     $_SESSION['vaiTro'] != 'KhachThue'
 ) {
-    header("Location: ../welcome.php");
+    header("Location: ../../welcome.php");
     exit();
 }
 
@@ -58,7 +58,7 @@ $menu = [
 
     <title>HappyHome - Trang chủ khách thuê</title>
 
-    <link rel="stylesheet" href="../assets/css/khachthue.css">
+    <link rel="stylesheet" href="../../assets/css/khachthue.css">
 </head>
 
 <body>
@@ -96,7 +96,7 @@ $menu = [
         </nav>
 
         <div class="sidebar-bottom">
-            <a href="../auth/logout.php">
+            <a href="../../auth/logout.php">
                 <span>🚪</span>
                 Đăng xuất
             </a>
