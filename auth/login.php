@@ -83,7 +83,11 @@ $_SESSION['vaiTro'] = $user['VaiTro'];
 
 // Điều hướng theo vai trò
 if ($vaiTro == 'KhachThue') {
-    header("Location: ../khachthue/index.php");
+    header("Location: ../pages/quanlykhachthue/index.php");
+} elseif ($vaiTro == 'NhanVien') {
+    header("Location: ../pages/quanlynhanvien/dashboard.php");
+} elseif ($vaiTro == 'QuanLy') {
+    header("Location: ../pages/admin/index.php");
 } else {
     header("Location: ../index.php");
 }
