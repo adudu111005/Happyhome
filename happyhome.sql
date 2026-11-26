@@ -149,7 +149,7 @@ CREATE TABLE `phong` (
   `DienTich` decimal(6,2) DEFAULT NULL,
   `GiaThue` decimal(15,2) NOT NULL,
   `MoTa` text COLLATE utf8mb4_unicode_ci,
-  `TrangThai` enum('Trong','DaCoNguoiO','DangDonDep','DangSuaChua') COLLATE utf8mb4_unicode_ci DEFAULT 'Trong'
+  `TrangThai` enum('Trong','DaCoNguoiO','DangDonDep','DangSuaChua','NgungChoThue') COLLATE utf8mb4_unicode_ci DEFAULT 'Trong'
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------

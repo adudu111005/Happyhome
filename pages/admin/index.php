@@ -17,7 +17,7 @@ $menu = [];
 if ($vaiTro == 'QuanLy' || $vaiTro == 'Admin') {
     $menu = [
         ["icon" => "🏠", "ten" => "Tổng quan", "link" => "/HappyHome/pages/admin/index.php"],
-        ["icon" => "🚪", "ten" => "Quản lý phòng", "link" => "/HappyHome/pages/quanlyphong/index.php"],
+        ["icon" => "🚪", "ten" => "Quản lý phòng", "link" => "/HappyHome/pages/admin/quanlyphong/index.php"],
         ["icon" => "👥", "ten" => "Khách thuê", "link" => "/HappyHome/pages/quanlykhachthue/index.php"],
         ["icon" => "👨‍💼", "ten" => "Nhân viên", "link" => "/HappyHome/pages/quanlynhanvien/dashboard.php"],
         ["icon" => "📄", "ten" => "Hợp đồng", "link" => "#"],
@@ -148,7 +148,7 @@ else {
                             <span>🏠</span>
                             <h3>Quản lý phòng</h3>
                             <p>Theo dõi tình trạng phòng trọ</p>
-                            <a href="/HappyHome/pages/quanlyphong/index.php">Truy cập →</a>
+                            <a href="/HappyHome/pages/admin/quanlyphong/index.php">Truy cập →</a>
                         </div>
 
                         <div class="card">

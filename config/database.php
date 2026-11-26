@@ -17,7 +17,3 @@ if ($conn->connect_error) {
 // Hỗ trợ tiếng Việt
 $conn->set_charset("utf8mb4");
 
-?>
-<?php
-echo password_hash("123456", PASSWORD_DEFAULT);
-?>
